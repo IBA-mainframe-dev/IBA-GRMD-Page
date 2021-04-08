@@ -6504,8 +6504,11 @@ button.bg-dark:focus {
 .embed-responsive {
   position: relative;
   display: block;
-  width: 100%;
+  margin: 0 auto;
+  width: 60%;
+  height: 60%;
   padding: 0;
+  border-radius: 16px;
   overflow: hidden;
 }
 .embed-responsive::before {
@@ -6518,6 +6521,7 @@ button.bg-dark:focus {
 .embed-responsive object,
 .embed-responsive video {
   position: absolute;
+  display: block;
   top: 0;
   bottom: 0;
   left: 0;
@@ -6527,6 +6531,8 @@ button.bg-dark:focus {
 }
 
 .embed-responsive-21by9::before {
+  position: relative;
+  overflow: hidden;
   padding-top: 42.8571428571%;
 }
 
