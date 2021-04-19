@@ -10195,6 +10195,13 @@ form .row:first-child .floating-label-form-group {
 .copyright {
   background-color: #1a252f;
 }
+.ibaevent {
+    display: block;
+    margin: 0 auto;
+    padding-top: 3rem;
+    width: 80%;
+    height: auto;
+}
 
 header.masthead {
   padding-top: 10.5rem;
@@ -10207,6 +10214,7 @@ header.masthead {
   background-position: center center;
   background-size: cover;
 }
+
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
   line-height: 1.5rem;
