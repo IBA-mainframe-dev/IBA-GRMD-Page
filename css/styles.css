@@ -413,6 +413,11 @@ h6, .h6 {
   line-height: 1.2;
 }
 
+.display-5 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
 hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -534,6 +539,7 @@ pre code {
   overflow-y: scroll;
 }
 
+
 .container,
 .container-fluid,
 .container-xl,
@@ -546,6 +552,7 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
+
 
 @media (min-width: 576px) {
   .container-sm, .container {
@@ -9977,6 +9984,11 @@ h3 {
     border-color: #dee2e6;
   }
 }
+
+.page-section1 {
+  padding-top: 6rem;
+}
+
 .page-section {
   padding: 6rem 0;
 }
